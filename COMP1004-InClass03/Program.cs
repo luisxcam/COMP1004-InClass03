@@ -16,6 +16,10 @@ namespace COMP1004_InClass03
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            SplashScreen splash = new SplashScreen();
+            splash.ShowDialog();
+
             Application.Run(new autoCenterForm());
         }
     }
